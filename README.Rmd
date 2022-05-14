@@ -1,0 +1,52 @@
+---
+output: 
+  github_document:
+    pandoc_args: --webtex=https://ibm.codecogs.com/png.latex?
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  message = FALSE,
+  #out.width = "100%",
+  fig.width = 5,
+  fig.height = 5
+)
+```
+
+# ETAD: Election Timing in Autocracy and Democracy
+
+## Overview
+
+*To be added.*
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` {r, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("yukiyanai/ETAD")
+```
+
+or
+
+``` {r, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("yukiyanai/ETAD")
+```
+
+
+
+## Data
+
+*To be added.*
+
+## Examples
+
+*To be added.*

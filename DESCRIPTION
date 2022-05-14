@@ -1,0 +1,29 @@
+Package: ETAD
+Type: Package
+Title: A Data Set of Election Timing in Autocracy and Democracy
+Version: 0.0.1
+Authors@R:
+  c(person(given = "Masaaki",
+           family = "Higashijima",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-8002-7128")),
+    person(given = "Naoki",
+           family = "Shimizu",
+           role = "aut",
+           comment = c(ORCID = "")),
+    person(given = "Hidekuni",
+           family = "Washida",
+           role = "aut",
+           comment = c(ORCID = "0000-0003-2119-8127")),
+    person(given = "Yuki",
+             family = "Yanai",
+             role = c("aut", "cre"),
+             email = "yanai.yuki@kochi-tech.ac.jp",
+             comment = c(ORCID = "0000-0002-3795-3281")))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)

@@ -1,6 +1,6 @@
 Package: ETAD
 Type: Package
-Title: A Data Set of Election Timing in Autocracy and Democracy
+Title: A Data Set of Election Timing across Autocracy and Democracy
 Version: 0.0.1
 Authors@R:
   c(person(given = "Masaaki",
@@ -9,7 +9,8 @@ Authors@R:
            comment = c(ORCID = "0000-0002-8002-7128")),
     person(given = "Naoki",
            family = "Shimizu",
-           role = "aut")),
+           role = "aut",
+           comment = c(ORCID = "0000-0001-6644-4200")),
     person(given = "Hidekuni",
            family = "Washida",
            role = "aut",

@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ETAD: Election Timing in Autocracy and Democracy
+# ETAD: Election Timing across Autocracy and Democracy
 
 ## Overview
 

@@ -1,6 +1,6 @@
 Package: ETAD
 Type: Package
-Title: A Data Set of Election Timing across Autocracy and Democracy
+Title: A Dataset of Election Timing across Autocracy and Democracy
 Version: 0.0.1
 Authors@R:
   c(person(given = "Masaaki",
@@ -22,8 +22,10 @@ Authors@R:
              comment = c(ORCID = "0000-0002-3795-3281")))
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 2.10)

@@ -20,12 +20,17 @@ Authors@R:
              role = c("aut", "cre"),
              email = "yanai.yuki@kochi-tech.ac.jp",
              comment = c(ORCID = "0000-0002-3795-3281")))
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: ETAD stands for Election Timing across Autocracy and Democracy.
+  The package provides the global dataset of election timing of national
+  presidential and legislative elections since 1945.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Depends: 
     R (>= 2.10)
+Imports:
+  haven,
+  utils,
+ByteCompile: TRUE

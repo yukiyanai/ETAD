@@ -1,10 +1,10 @@
 ## code to prepare `ETAD` dataset
 ##
-## 2023-05-06 Yuki Yanai
-##
+## Created: 2023-05-06 Yuki Yanai
 
 library(tidyverse)
 library(countrycode)
+library(lubridate)
 
 D <- read_csv("data-raw/unprepared/etad_to2022_20230506.csv")
 
@@ -70,13 +70,25 @@ D2 <- D |>
 #6. 内戦
 #9. その他
 
-ETAD <- D2 |>
+
+D3 <- D2 |>
+  group_by(iso3, etype3) |>
+  mutate(lag_held_date = lag(held_date)) |>
+  mutate(days_fr_last = as.numeric(held_date - lag_held_date))
+
+
+ETAD <- D3 |>
   select(cowcode, iso3, country,
          etype2, etype3, parliamentarism,
          timing1, timing2, reason,
          held_date, held_year, held_month, held_wday,
          sche_date, sche_year, sche_month, sche_wday,
-         dif_days, termlength)
+         dif_days, termlength, days_fr_last)
 
 # Run the following to update the dataset.
 usethis::use_data(ETAD, overwrite = TRUE)
+
+
+# To save the data in other formats
+
+

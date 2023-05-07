@@ -5,7 +5,7 @@
 #' @format ## `ETAD`
 #' A data frame with 3,099 rows and 19 columns:
 #' \describe{
-#'   \item{cowcode}{COW (Correlates of War) country code}
+#'   \item{cowcode}{COW ([Correlates of War](https://correlatesofwar.org/)) country code}
 #'   \item{iso3}{3 letter ISO country code}
 #'   \item{country}{Country name}
 #'   \item{etype2}{Binary variable indicating the election type: "presidenial" or "legislative"}
@@ -22,7 +22,8 @@
 #'   \item{sche_year}{Year when the election was originally scheduled.}
 #'   \item{sche_month}{Month when the election was originally scheduled.}
 #'   \item{sche_wday}{Day of the week when the election was originally scheduled.}
-#'   \item{dif_days}{Difference between `held_date` and `sche_date`. A negative value means the election was held earlier than scheduled, and a positive means it was delayed.}
+#'   \item{dif_days}{Difference in days between `held_date` and `sche_date`. A negative value means the election was held earlier than scheduled, and a positive means it was delayed.}
 #'   \item{termlength}{Term length in year.}
+#'   \item{days_fr_las}{Number of days elapsed since the last election.}
 #' }
 "ETAD"

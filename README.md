@@ -5,7 +5,10 @@
 
 ## Overview
 
-*To be added.*
+The ETAD dataset provides information of the dates when national
+elections were scheduled and held. It currently covers national
+legislative and presidential the periods between 1945 and 2022 for 146
+countries.
 
 ## Installation
 
@@ -26,8 +29,47 @@ devtools::install_github("yukiyanai/ETAD")
 
 ## Data
 
-*To be added.*
+You only have to load the **ETAD** package to use the data.
 
-## Examples
+``` r
+library(ETAD)
+```
 
-*To be added.*
+Then, you can use the data object called `ETAD`. For instance, you can
+glance at the top rows of the dataset by:
+
+``` r
+head(ETAD)
+```
+
+If you would like to use the dataset outside R, please download the
+dataset.
+
+To save it in CSV format:
+
+``` r
+download_ETAD_csv(file = "fileNameOfYourChoice.csv")
+```
+
+To save it in TSV format:
+
+``` r
+download_ETAD_tsv(file = "fileNameOfYourChoice.tsv")
+```
+
+To save it in dta format for Stata 14 (you need **haven** package for
+this):
+
+``` r
+download_ETAD_dta(file = "fileNameOfYourChoice.dta",
+                  version = 14)
+```
+
+## Authors
+
+- [Masaaki Higashijima](https://masaakihigashijima.com/) (University of
+  Tokyo)
+- Naoki Shimizu (University of Kochi)
+- Hidekuni Washida (Toyo University)
+- [Yuki Yanai](http://yukiyanai.github.io/) (Kochi University of
+  Technology) \[maintainer\]

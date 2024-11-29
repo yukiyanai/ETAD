@@ -1,13 +1,11 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # ETAD: Election Timing across Autocracy and Democracy
 
 ## Overview
 
 The ETAD dataset provides information of the dates when national
 elections were scheduled and held. It currently covers national
-legislative and presidential the periods between 1945 and 2022 for 146
+legislative and presidential the periods between 1945 and 2023 for 148
 countries.
 
 ## Installation
@@ -42,27 +40,27 @@ glance at the top rows of the dataset by:
 head(ETAD)
 ```
 
-If you would like to use the dataset outside R, please download the
-dataset.
+If you would like to use the dataset outside R, please export the
+dataset to a file as follows.
 
-To save it in CSV format:
-
-``` r
-download_ETAD_csv(file = "fileNameOfYourChoice.csv")
-```
-
-To save it in TSV format:
+To export it as a CSV file:
 
 ``` r
-download_ETAD_tsv(file = "fileNameOfYourChoice.tsv")
+export_ETAD_csv(file = "fileNameOfYourChoice.csv")
 ```
 
-To save it in dta format for Stata 14 (you need **haven** package for
+To export it as a TSV file:
+
+``` r
+export_ETAD_tsv(file = "fileNameOfYourChoice.tsv")
+```
+
+To export it as a Stata 14 dta format (you need **haven** package for
 this):
 
 ``` r
-download_ETAD_dta(file = "fileNameOfYourChoice.dta",
-                  version = 14)
+export_ETAD_dta(file = "fileNameOfYourChoice.dta",
+                version = 14)
 ```
 
 ## Authors

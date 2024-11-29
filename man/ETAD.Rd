@@ -17,7 +17,7 @@ A data frame with 3,099 rows and 19 columns:
 \item{parliamentarism}{Dummy indicating the parliamentary system. This is a "factor" variable where \code{0} is labeled as "presidentialism" and \code{1} as "parliamentarism". }
 \item{timing1}{Trichotomous variable showing election timing. \code{1} = held as scheduled, \code{2} = early or delayed election, and \code{3} = cannot tell if an election was held as scheduled or not.}
 \item{timing2}{Trichotomous variable showing election timing. \code{-1} = an early election, \code{0} = on-schedule election, and \code{1} = delayed election. \code{NA} if \code{timing1} == 3.}
-\item{reason}{Categorical variable showing the resons for the election-timing change. \code{0} = no change, \code{1} = the first election under the new constitution or for the new state, \code{2} = re-election due to an invalid election, \code{3} = coup, \code{4} = natural death of the leader, \code{5} = the leader was assassinated, \code{6} = civil war, \code{9} = other.}
+\item{reason}{Categorical variable showing the reasons for the election-timing change. \code{0} = no change, \code{1} = the first election under the new constitution or for the new state, \code{2} = re-election due to an invalid election, \code{3} = coup, \code{4} = natural death of the leader, \code{5} = the leader was assassinated, \code{6} = civil war, \code{7} = no-confidence, \code{9} = other.}
 \item{held_date}{Date when the election was held.}
 \item{held_year}{Year when the election was held.}
 \item{held_month}{Month when the election was held.}
@@ -32,6 +32,9 @@ A data frame with 3,099 rows and 19 columns:
 }
 }
 }
+\source{
+Created by Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
+}
 \usage{
 ETAD
 }
@@ -40,7 +43,12 @@ The \href{https://yukiyaai.github.io/ETAD/}{ETAD} packages provides R users with
 the data set of Election Timing across Autocracy and Democracy and useful
 functions to work work with the data.
 
-Data of Election Timing across Autocracy and Democracy
+Election Timing across Autocracy and Democracy:
+A dataset of national election dates since 1946
+}
+\examples{
+data(ETAD)
+
 }
 \author{
 Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and

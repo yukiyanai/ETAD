@@ -7,3 +7,4 @@
 inst/doc
 *_eg.R
 *_eg.Rmd
+/data-raw

@@ -1,15 +1,16 @@
 ## code to prepare `ETAD` dataset
 ##
 ## Created: 2023-05-06 Yuki Yanai
+## Modified: 2024-11-29 Yuki Yanai
 
 library(tidyverse)
 library(countrycode)
 library(lubridate)
 
-D <- read_csv("data-raw/unprepared/etad_to2022_20230506.csv")
+D <- read_csv("data-raw/unprepared/etad_to2023_20240606.csv")
 
 D2 <- D |>
-  select(ccode:need2fix) |>
+  select(ccode:reason) |>
   rename(cowcode = ccode) |>
   mutate(iso3 = countrycode(cowcode,
                             origin = "cown",
@@ -37,18 +38,7 @@ D2 <- D |>
          held_wday = wday(held_date, label = TRUE, abbr = FALSE)) |>
   mutate(sche_date = as.Date(sche_date, format = "%Y-%m-%d"),
          held_date = as.Date(held_date, format = "%Y-%m-%d")) |>
-  mutate(dif_days = as.integer(held_date - sche_date)) |>
-  mutate(new_reason = case_when(
-    reason == 0 ~ 0L,
-    reason %in% c(6, 8) ~ 1L,
-    reason == 7 ~ 2L,
-    reason == 1 ~ 3L,
-    reason == 3 ~ 4L,
-    reason == 2 ~ 5L,
-    reason == 4 ~ 6L,
-    reason == 5 ~ 9L)) |>
-  select(!reason) |>
-  rename(reason = new_reason)
+  mutate(dif_days = as.integer(held_date - sche_date))
 
 # reasonの元コード
 #1. クーデタ
@@ -68,6 +58,7 @@ D2 <- D |>
 #4. 指導者の自然死
 #5. 指導者の暗殺
 #6. 内戦
+#7. 内閣不信任
 #9. その他
 
 

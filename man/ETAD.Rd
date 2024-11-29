@@ -12,7 +12,7 @@ A data frame with 3,099 rows and 19 columns:
 \item{cowcode}{COW (\href{https://correlatesofwar.org/}{Correlates of War}) country code}
 \item{iso3}{3 letter ISO country code}
 \item{country}{Country name}
-\item{etype2}{Binary variable indicating the election type: "presidenial" or "legislative"}
+\item{etype2}{Binary variable indicating the election type: "presidential" or "legislative"}
 \item{etype3}{Trichotomous variable indicating the election type: "presidential", "lower house", or "upper house. The current version does not contain "upper house" elections.}
 \item{parliamentarism}{Dummy indicating the parliamentary system. This is a "factor" variable where \code{0} is labeled as "presidentialism" and \code{1} as "parliamentarism". }
 \item{timing1}{Trichotomous variable showing election timing. \code{1} = held as scheduled, \code{2} = early or delayed election, and \code{3} = cannot tell if an election was held as scheduled or not.}

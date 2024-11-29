@@ -9,7 +9,7 @@
 #'   \item{cowcode}{COW ([Correlates of War](https://correlatesofwar.org/)) country code}
 #'   \item{iso3}{3 letter ISO country code}
 #'   \item{country}{Country name}
-#'   \item{etype2}{Binary variable indicating the election type: "presidenial" or "legislative"}
+#'   \item{etype2}{Binary variable indicating the election type: "presidential" or "legislative"}
 #'   \item{etype3}{Trichotomous variable indicating the election type: "presidential", "lower house", or "upper house. The current version does not contain "upper house" elections.}
 #'   \item{parliamentarism}{Dummy indicating the parliamentary system. This is a "factor" variable where `0` is labeled as "presidentialism" and `1` as "parliamentarism". }
 #'   \item{timing1}{Trichotomous variable showing election timing. `1` = held as scheduled, `2` = early or delayed election, and `3` = cannot tell if an election was held as scheduled or not.}

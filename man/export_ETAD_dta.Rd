@@ -2,7 +2,7 @@
 % Please edit documentation in R/export_ETAD_dta.R
 \name{export_ETAD_dta}
 \alias{export_ETAD_dta}
-\title{Download ETAD data in Stata dta format}
+\title{Export ETAD data as a Stata dta file}
 \usage{
 export_ETAD_dta(file, version = 15)
 }
@@ -13,10 +13,10 @@ writing.}
 \item{version}{file version to use. Supports versions 8-15. Default to 15.}
 }
 \description{
-\code{download_ETAD_dta} downloads a Stata dta file of
+\code{export_ETAD_dta} exports a Stata dta file of
 the ETAD dataset.
 }
 \seealso{
-\code{\link{download_ETAD_csv}}, \code{\link{download_ETAD_tsv}},
+\code{\link{export_ETAD_csv}}, \code{\link{export_ETAD_tsv}},
 \code{\link[haven]{write_dta}}
 }

@@ -1,6 +1,6 @@
 Package: ETAD
 Type: Package
-Title: A Dataset of Election Timing across Autocracy and Democracy
+Title: A Dataset of Election Timing Across Autocracy and Democracy
 Version: 0.1.1
 Authors@R:
   c(person(given = "Masaaki",
@@ -20,9 +20,7 @@ Authors@R:
              role = c("aut", "cre"),
              email = "yanai.yuki@kochi-tech.ac.jp",
              comment = c(ORCID = "0000-0002-3795-3281")))
-Description: ETAD stands for Election Timing across Autocracy and Democracy.
-  The package provides the global dataset of election timing of national
-  presidential and legislative elections since 1945.
+Description: A global dataset of election timing of national presidential and legislative elections since 1945.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

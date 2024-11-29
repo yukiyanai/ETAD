@@ -39,7 +39,7 @@ Created by Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
 ETAD
 }
 \description{
-The \href{https://yukiyaai.github.io/ETAD/}{ETAD} packages provides R users with
+The \href{https://yukiyanai.github.io/ETAD/}{ETAD} packages provides R users with
 the data set of Election Timing across Autocracy and Democracy and useful
 functions to work work with the data.
 

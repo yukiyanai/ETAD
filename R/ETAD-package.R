@@ -1,6 +1,6 @@
 #' ETAD: A package for Election Timing across Autocracy and Democracy
 #'
-#' The [ETAD](https://yukiyaai.github.io/ETAD/) packages provides R users with
+#' The [ETAD](https://yukiyanai.github.io/ETAD/) packages provides R users with
 #'   the data set of Election Timing across Autocracy and Democracy and useful
 #'   functions to work work with the data.
 #'

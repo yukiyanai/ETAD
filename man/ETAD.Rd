@@ -28,7 +28,8 @@ A data frame with 3,099 rows and 19 columns:
 \item{sche_wday}{Day of the week when the election was originally scheduled.}
 \item{dif_days}{Difference in days between \code{held_date} and \code{sche_date}. A negative value means the election was held earlier than scheduled, and a positive means it was delayed.}
 \item{termlength}{Term length in year.}
-\item{days_fr_las}{Number of days elapsed since the last election.}
+\item{days_fr_last}{Number of days elapsed since the last election.}
+\item{concurrent}{Dummy variable indicating that the legislative and presidential elections were held on the same day.}
 }
 }
 }

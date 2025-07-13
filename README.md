@@ -25,6 +25,16 @@ or
 devtools::install_github("yukiyanai/ETAD")
 ```
 
+## Citation
+
+When using the ETAD dataset, please remember to cite the following
+paper.
+
+- Higashijima, Masaaki, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
+  (*forthcoming* 2025). \`\`Election Timing across Autocracy and
+  Democracy (ETAD): A New Dataset of National Election Dates.’’
+  *Electoral Studies* (accepted for publication)
+
 ## Data
 
 You only have to load the **ETAD** package to use the data.
@@ -67,7 +77,8 @@ export_ETAD_dta(file = "fileNameOfYourChoice.dta",
 
 - [Masaaki Higashijima](https://masaakihigashijima.com/) (University of
   Tokyo)
-- Naoki Shimizu (University of Kochi)
-- Hidekuni Washida (Toyo University)
+- Naoki Shimizu (Chukyo University)
+- [Hidekuni Washida](https://orcid.org/0000-0003-2119-8127) (Toyo
+  University)
 - [Yuki Yanai](http://yukiyanai.github.io/) (Kochi University of
   Technology) \[maintainer\]

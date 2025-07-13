@@ -1,7 +1,7 @@
 Package: ETAD
 Type: Package
 Title: A Dataset of Election Timing Across Autocracy and Democracy
-Version: 0.1.1
+Version: 0.1
 Authors@R:
   c(person(given = "Masaaki",
            family = "Higashijima",
@@ -16,10 +16,10 @@ Authors@R:
            role = "aut",
            comment = c(ORCID = "0000-0003-2119-8127")),
     person(given = "Yuki",
-             family = "Yanai",
-             role = c("aut", "cre"),
-             email = "yanai.yuki@kochi-tech.ac.jp",
-             comment = c(ORCID = "0000-0002-3795-3281")))
+           family = "Yanai",
+           role = c("aut", "cre"),
+           email = "yanai.yuki@kochi-tech.ac.jp",
+           comment = c(ORCID = "0000-0002-3795-3281")))
 Description: A global dataset of election timing of national presidential and legislative elections since 1945.
 License: MIT + file LICENSE
 Encoding: UTF-8

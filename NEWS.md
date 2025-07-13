@@ -1,3 +1,3 @@
-# ETAD 0.1
+# ETAD 1.0.0
 
 - Initial release of the ETAD dataset.

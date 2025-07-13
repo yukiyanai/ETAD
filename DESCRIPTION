@@ -1,7 +1,7 @@
 Package: ETAD
 Type: Package
 Title: A Dataset of Election Timing Across Autocracy and Democracy
-Version: 0.1
+Version: 1.0.0
 Authors@R:
   c(person(given = "Masaaki",
            family = "Higashijima",

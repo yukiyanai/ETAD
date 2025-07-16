@@ -9,15 +9,13 @@
 
 A data frame with 3,099 rows and 19 columns:
 \describe{
+\item{country}{Country name}
 \item{cowcode}{COW (\href{https://correlatesofwar.org/}{Correlates of War}) country code}
 \item{iso3}{3 letter ISO country code}
-\item{country}{Country name}
+\item{parliamentarism}{Dummy indicating the parliamentary system. This is a "factor" variable where \code{0} is labeled as "presidentialism" and \code{1} as "parliamentarism". }
 \item{etype2}{Binary variable indicating the election type: "presidential" or "legislative"}
 \item{etype3}{Trichotomous variable indicating the election type: "presidential", "lower house", or "upper house. The current version does not contain "upper house" elections.}
-\item{parliamentarism}{Dummy indicating the parliamentary system. This is a "factor" variable where \code{0} is labeled as "presidentialism" and \code{1} as "parliamentarism". }
-\item{timing1}{Trichotomous variable showing election timing. \code{1} = held as scheduled, \code{2} = early or delayed election, and \code{3} = cannot tell if an election was held as scheduled or not.}
-\item{timing2}{Trichotomous variable showing election timing. \code{-1} = an early election, \code{0} = on-schedule election, and \code{1} = delayed election. \code{NA} if \code{timing1} == 3.}
-\item{reason}{Categorical variable showing the reasons for the election-timing change. \code{0} = no change, \code{1} = the first election under the new constitution or for the new state, \code{2} = re-election due to an invalid election, \code{3} = coup, \code{4} = natural death of the leader, \code{5} = the leader was assassinated, \code{6} = civil war, \code{7} = no-confidence, \code{9} = other.}
+\item{termlength}{Term length in year.}
 \item{held_date}{Date when the election was held.}
 \item{held_year}{Year when the election was held.}
 \item{held_month}{Month when the election was held.}
@@ -27,8 +25,10 @@ A data frame with 3,099 rows and 19 columns:
 \item{sche_month}{Month when the election was originally scheduled.}
 \item{sche_wday}{Day of the week when the election was originally scheduled.}
 \item{dif_days}{Difference in days between \code{held_date} and \code{sche_date}. A negative value means the election was held earlier than scheduled, and a positive means it was delayed.}
-\item{termlength}{Term length in year.}
 \item{days_fr_last}{Number of days elapsed since the last election.}
+\item{timing1}{Trichotomous variable showing election timing. \code{1} = held as scheduled, \code{2} = early or delayed election, and \code{3} = cannot tell if an election was held as scheduled or not.}
+\item{timing2}{Trichotomous variable showing election timing. \code{-1} = an early election, \code{0} = on-schedule election, and \code{1} = delayed election. \code{NA} if \code{timing1} == 3.}
+\item{reason}{Categorical variable showing the reasons for the election-timing change. \code{0} = no change, \code{1} = the first election under the new constitution or for the new state, \code{2} = re-election due to an invalid election, \code{3} = coup, \code{4} = natural death of the leader, \code{5} = the leader was assassinated, \code{6} = civil war, \code{7} = no-confidence, \code{9} = other.}
 \item{concurrent}{Dummy variable indicating that the legislative and presidential elections were held on the same day.}
 }
 }

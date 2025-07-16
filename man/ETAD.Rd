@@ -40,7 +40,7 @@ Created by Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
 ETAD
 }
 \description{
-The \href{https://yukiyanai.github.io/ETAD/}{ETAD} packages provides R users with
+The \href{https://github.com/yukiyanai/ETAD}{ETAD} package provides R users with
 the data set of Election Timing across Autocracy and Democracy and useful
 functions to work work with the data.
 
@@ -50,6 +50,9 @@ A dataset of national election dates since 1946
 \examples{
 data(ETAD)
 
+}
+\references{
+Higashijima, M., N. Shimizu, H. Washida, and Y. Yanai. (forthcoming). "Election Timing across Autocracy and Democracy (ETAD): A New Dataset of National Election Dates." Electoral Studies (accepted for publication, 2025).
 }
 \author{
 Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and

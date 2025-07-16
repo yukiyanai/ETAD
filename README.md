@@ -31,9 +31,9 @@ When using the ETAD dataset, please remember to cite the following
 paper.
 
 - Higashijima, Masaaki, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
-  (*forthcoming* 2025). \`\`Election Timing across Autocracy and
-  Democracy (ETAD): A New Dataset of National Election Dates.’’
-  *Electoral Studies* (accepted for publication)
+  (*forthcoming*). “Election Timing across Autocracy and Democracy
+  (ETAD): A New Dataset of National Election Dates.” *Electoral Studies*
+  (accepted for publication, 2025).
 
 ## Data
 
@@ -53,30 +53,36 @@ head(ETAD)
 If you would like to use the dataset outside R, please export the
 dataset to a file as follows.
 
-To export it as a CSV file:
+To export it to a CSV file:
 
 ``` r
 export_ETAD_csv(file = "fileNameOfYourChoice.csv")
 ```
 
-To export it as a TSV file:
+To export it to a TSV file:
 
 ``` r
 export_ETAD_tsv(file = "fileNameOfYourChoice.tsv")
 ```
 
-To export it as a Stata 14 dta format (you need **haven** package for
-this):
+To export it to a file in Stata 14 dta format (you need **haven**
+package for this):
 
 ``` r
 export_ETAD_dta(file = "fileNameOfYourChoice.dta",
                 version = 14)
 ```
 
+## Codebook
+
+[Codebook for ETAD
+(v.1)](https://yukiyanai.github.io/data_etad/ETAD_codebook_ver_1.pdf)
+(PDF)
+
 ## Authors
 
-- [Masaaki Higashijima](https://masaakihigashijima.com/) (University of
-  Tokyo)
+- [Masaaki Higashijima](https://masaakihigashijima.com/) (The University
+  of Tokyo)
 - Naoki Shimizu (Chukyo University)
 - [Hidekuni Washida](https://orcid.org/0000-0003-2119-8127) (Toyo
   University)

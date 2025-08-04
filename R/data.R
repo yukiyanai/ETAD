@@ -1,7 +1,7 @@
 #' ETAD data
 #'
 #' Election Timing across Autocracy and Democracy:
-#' A dataset of national election dates since 1946
+#' A dataset of national election dates since 1945
 #'
 #' @format ## `ETAD`
 #' A data frame with 3,099 rows and 19 columns:

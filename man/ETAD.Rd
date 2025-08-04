@@ -45,14 +45,14 @@ the data set of Election Timing across Autocracy and Democracy and useful
 functions to work work with the data.
 
 Election Timing across Autocracy and Democracy:
-A dataset of national election dates since 1946
+A dataset of national election dates since 1945
 }
 \examples{
 data(ETAD)
 
 }
 \references{
-Higashijima, M., N. Shimizu, H. Washida, and Y. Yanai. (forthcoming). "Election Timing across Autocracy and Democracy (ETAD): A New Dataset of National Election Dates." Electoral Studies (accepted for publication, 2025).
+Higashijima, M., N. Shimizu, H. Washida, and Y. Yanai. (2025). "\href{https://doi.org/10.1016/j.electstud.2025.102964}{Election Timing across Autocracy and Democracy (ETAD): A New Dataset of National Election Dates}." Electoral Studies 96, 102964.
 }
 \author{
 Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, and

@@ -31,8 +31,10 @@ When using the ETAD dataset, please remember to cite the following
 paper.
 
 - Higashijima, Masaaki, Naoki Shimizu, Hidekuni Washida, and Yuki Yanai.
-  (2025). “[Election Timing across Autocracy and Democracy
-  (ETAD): A New Dataset of National Election Dates.](https://doi.org/10.1016/j.electstud.2025.102964) ” *Electoral Studies* 96, 102964.
+  (2025). “[Election Timing across Autocracy and Democracy (ETAD): A New
+  Dataset of National Election
+  Dates](https://doi.org/10.1016/j.electstud.2025.102964).” *Electoral
+  Studies* 96, 102964.
 
 ## Data
 
